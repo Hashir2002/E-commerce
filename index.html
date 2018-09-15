@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="design.css" type="text/css">
+    
+        
+</head>
+<body>
+<div class="Main-Complete">
+       
+   
+    <div class="Categories">
+        <table>
+            <tr>
+                <td colspan="10">
+                    <img class="logo" src="images/logohsy.jpg" alt="mainlogo">
+                </td>
+            
+            </tr>
+            <tr>
+                <td><a class="Menu" href="men.html">MEN</a></td>
+                <td><a class="Menu" href="women1.html">WOMEN</a></td>
+                <td><a class="Menu" href="foot.html">FOOTWEAR</a></td>
+                <td><a class="Menu" href="kids.html">KIDS</a></td>
+                <td><a class="Menu" href="access.html">ACCESSORIES</a></td>
+                <td><a class="Menu" href="sale.html">SALE</a></td>
+                <td><a class="Menu" href="limited.html">LIMITED EDITION</a></td>
+                <td><a class="Menu" href="about.html">ABOUT US</a></td>
+                <td></td>
+                <td><a class="Menu" href="cart.html">MY CART</a></td>
+            </tr>
+
+        </table>
+    
+    
+    </div>
+
+    <div class="mainBody">
+       
+
+       
+        <div id="slider">
+        
+        </div>
+
+        
+        <div class="tiles">
+            <table>
+                <tr>
+                    <td>
+                        <a href="men.html">
+                            <img class="men1" src="images/mentshirt.jpeg" alt="men1">
+                        </a>
+                    </td>
+
+                    <td >
+                        <a href="women2.html">
+                            <img class="womenlower"src="images/womenlowers.jpeg"  onmouseover="src='images/womendenim.jpeg'" onmouseout="src='images/womenlowers.jpeg'" alt="women1">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="men.html">
+                            <img class="men2"src="images/mentop.jpeg" alt="men2">
+                        </a>
+                    </td>
+                    
+                </tr>
+                    <td>
+                        <a href="women1.html">
+                            <img class="womentop" src="images/womentop.jpeg" alt="womentop">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="foot.html">
+                            <img  class="foot"src="images/foot.jpeg" alt="footwear">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="kids.html">
+                            <img class="custom" src="images/custom.jpg" alt="customs">
+                        </a>
+                    </td>
+                <tr>
+                    
+                </tr>
+            </table>
+
+        </div>
+    </div> 
+    <div id="footer">
+
+        <!-- broken the main Div of footer into different Divs -->
+
+        <!-- part 1 -->
+        <div id="footer-sub">
+            <h2>From the Developer'</h2>
+            <p>This is an experimental E-commerce site that we have made using HTML5,CSS3 and Javascript(ES6) for which we are very warmly thankful to our co-operative and supportive teachers : <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan </b> and <b class="color">Sir Tahir</b>   as it was never possible without thier guidance. So a big thanks to the teachers for making great efforts.Hope you like it!!!</p>
+        </div>
+
+        <!-- part 2 -->
+        <div id="footer-sub-2">
+            <h2>Our Outlets</h2>
+            <ul>
+                <li><a href="karachi-location.html">Karachi</a></li>
+                <li><a href="#">Lahore</a></li>
+                <li><a href="#">Islamabad</a></li>
+                <li><a href="#">Hyderabad</a></li>
+                <li><a href="#">Peshawar</a></li>
+            </ul>
+        </div>
+        <div id="footer-sub-2">
+                <h2>Social Links</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Yahoo</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+            </div>
+    </div>
+
+    </div>
+
+</div>
+<script >
+     var images = [ "slide2.jpeg","slide.jpeg", "slide1.jpeg","slide4.jpg"];
+    var totalImages = 4;
+    var currentImage = 0;
+
+     function showNext() 
+     {
+      if (currentImage == totalImages) currentImage = 0;
+      document.getElementById("slider").innerHTML = "<a href='access.html'><img src='images/" + images[currentImage] + "' class='setValue' /></a>"
+       currentImage++;
+     }
+
+      showNext (); 
+   setInterval(function () {
+   showNext();
+   }, 3500);
+    
+</script>
+</body>
+</html>

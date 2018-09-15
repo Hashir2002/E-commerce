@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+
+<body>
+    <body>
+        <div class="Main-Complete">
+        
+        
+            <div class="Categories">
+                        <table>
+                            <tr>
+                                <td colspan="10">
+                                        
+                       <a href="index.html"> <img class="logo" src="images/logohsy.jpg" alt="mainlogo"> </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><a class="Menu" href="men.html">MEN</a></td>
+                                <td><a class="Menu" href="women1.html">WOMEN</a></td>
+                                <td><a class="Menu" href="foot.html">FOOTWEAR</a></td>
+                                <td><a class="Menu" href="kids.html">KIDS</a></td>                                <td><a class="Menu" href="access.html">ACCESSORIES</a></td>
+                                <td><a class="Menu" href="sale.html">SALE</a></td>
+                                <td><a class="Menu" href="limited.html">LIMITED EDITION</a></td>
+                                <td><a class="Menu" href="about.html">ABOUT US</a></td>
+                                <td></td>
+                                <td><a class="Menu" href="cart.html">MY CART</a></td> 
+                            </tr>
+                
+                    
+                        </table>
+                        
+                        
+            </div>
+    
+                <p id="mycart">CUSTOMER CART</p>
+    
+                <table id="maincart">
+                        <thead id="cartheadings">
+                        <tr>
+                            <th>S.NO</th>
+                            <th>PRODUCT DISPLAY</th>
+                            <th>PRODUCT NAME</th>
+                            <th>QUANTITY</th>
+                            <th>PRIZE</th>
+                            <th>DELETE ITEM</th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody  id="table">
+    
+                        </tbody>
+                        <tfoot >
+                            <tr >
+                                <td colspan="4" class="carttable">
+                                    Grand Total(Exclusive of Shipping) :
+                                </td>
+                                <td colspan="2" id="total" class="carttable">
+    
+                                </td>
+                            </tr>
+                        </tfoot>
+                </table>
+    
+    
+                    
+    
+                
+    
+                <div id="footer">
+    
+                    <!-- broken the main Div of footer into different Divs -->
+    
+                    <!-- part 1 -->
+                    <div id="footer-sub">
+                        <h2>From the Developer'</h2>
+                        <p>This is an experimental E-commerce site that we have made using HTML5,CSS3 and Javascript(ES6) for which we are very warmly thankful to our co-operative and supportive teachers : <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan </b> and <b class="color">Sir Tahir</b>   as it was never possible without thier guidance. So a big thanks to the teachers for making great efforts.Hope you like it!!!</p>
+                    </div>
+    
+                    <!-- part 2 -->
+                    <div id="footer-sub-2">
+                        <h2>Our Outlets</h2>
+                        <ul>
+                            <li><a href="karachi-location.html">Karachi</a></li>
+                            <li><a href="#">Lahore</a></li>
+                            <li><a href="#">Islamabad</a></li>
+                            <li><a href="#">Hyderabad</a></li>
+                            <li><a href="#">Peshawar</a></li>
+                        </ul>
+                    </div>
+                    <div id="footer-sub-2"> 
+                        <h2>Social Links</h2>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Gmail</a></li>
+                            <li><a href="#">Yahoo</a></li>
+                            <li><a href="#">Whatsapp</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+        </div>
+    <script>
+
+
+    
+        var details=[]
+        show();
+
+        function show()
+        {
+            details=[
+
+{name:"Men's Shirt 1",src:"s1.jpeg",price:"10"},//1
+{name:"Men's Shirt 2",src:"s2.jpeg",price:"20"},//2
+{name:"Men's Shirt 3",src:"s3.jpeg",price:"15"},//3
+{name:"Men's Shirt 4",src:"s4.jpeg",price:"21"},//4
+{name:"Men's Shirt 5",src:"s5.jpeg",price:"18"},//5
+{name:"Men's Shirt 6",src:"s6.jpeg",price:"22"},//6
+{name:"Men's Shirt 7",src:"s7.jpeg",price:"21"},//7
+{name:"Men's Shirt 8",src:"s8.jpeg",price:"18"},//8
+{name:"Men's Shirt 9",src:"s9.jpeg",price:"22"},//9
+{name:"Men's Shirt 10",src:"s10.jpeg",price:"21"},//10
+
+{name:"Women's Shirt 1",src:"w1.jpeg",price:"15"},//11
+{name:"Women's Shirt 2",src:"w2.jpeg",price:"35"},//12
+{name:"Women's Shirt 3",src:"w3.jpeg",price:"15"},//13
+{name:"Women's Shirt 4",src:"w4.jpeg",price:"15"},//14
+{name:"Women's Shirt 5",src:"w5.jpeg",price:"21"},//15
+{name:"Women's Shirt 6",src:"w6.jpeg",price:"11"},//16
+{name:"Women's Shirt 7",src:"w7.jpeg",price:"29"},//17
+{name:"Women's Shirt 8",src:"w8.jpeg",price:"21"},//18
+
+{name:"Men's Bottom 1",src:"ml1.jpeg",price:"10"},//19
+{name:"Men's Bottom 2",src:"ml2.jpeg",price:"20"},//20
+{name:"Men's Bottom 3",src:"ml3.jpeg",price:"15"},//21
+{name:"Men's Bottom 4",src:"ml4.jpeg",price:"21"},//22
+{name:"Men's Bottom 5",src:"ml5.jpeg",price:"18"},//23
+{name:"Men's Bottom 6",src:"ml6.jpeg",price:"22"},//24
+{name:"Men's Bottom 7",src:"ml7.jpeg",price:"21"},//25
+
+{name:"Women's Lower 1",src:"wl1.jpeg",price:"27"},//26
+{name:"Women's Lower 2",src:"wl2.jpeg",price:"11"},//27
+{name:"Women's Lower 3",src:"wl3.jpeg",price:"27"},//28
+{name:"Women's Lower 4",src:"wl4.jpeg",price:"27"},//29
+{name:"Women's Lower 5",src:"wl5.jpeg",price:"27"},//30
+{name:"Women's Lower 6",src:"wl6.jpeg",price:"27"},//31
+
+{name:"Kids clothing",src:"k1.jpg",price:"27"},//32
+{name:"Kids clothing",src:"k2.jpg",price:"11"},//33
+{name:"Kids clothing",src:"k3.jpg",price:"21"},//34
+{name:"Kids clothing",src:"k4.jpg",price:"15"},//35
+{name:"Kids clothing",src:"k5.jpg",price:"24"},//36
+{name:"Kids clothing",src:"k6.jpg",price:"23"},//37
+{name:"Kids clothing",src:"k7.jpg",price:"13"},//38
+{name:"Kids clothing",src:"k8.jpg",price:"19"},//39
+{name:"Kids clothing",src:"k9.jpg",price:"34"},//40
+{name:"Kids clothing",src:"k10.jpg",price:"21"},//41
+{name:"Kids clothing",src:"k11.jpg",price:"5"},//42
+{name:"Kids clothing",src:"k12.jpg",price:"37"},//43
+
+{name:"Footwear 1",src:"f1.jpeg",price:"27"},//44
+{name:"Footwear 2",src:"f2.jpeg",price:"11"},//45
+{name:"Footwear 3",src:"f3.jpeg",price:"21"},//46
+{name:"Footwear 4",src:"f4.jpeg",price:"15"},//47
+{name:"Footwear 5",src:"f5.jpeg",price:"24"},//48
+{name:"Footwear 6",src:"f6.jpeg",price:"23"},//49
+{name:"Footwear 7",src:"f7.jpeg",price:"13"},//50
+
+{name:"Fashion Accessories",src:"a1.JPG",price:"27"},//51
+{name:"Fashion Accessories",src:"a2.JPG",price:"11"},//52
+{name:"Fashion Accessories",src:"a3.JPG",price:"21"},//53
+{name:"Fashion Accessories",src:"a4.JPG",price:"15"},//54
+{name:"Fashion Accessories",src:"a5.JPG",price:"24"},//55
+{name:"Fashion Accessories",src:"a6.JPG",price:"23"},//56
+{name:"Fashion Accessories",src:"a7.JPG",price:"13"},//57
+
+
+            ] 
+
+            var array = JSON.parse(localStorage.getItem("favourite"));
+            console.log(array)
+            array.map(function(index,value){
+                arr = array[value]
+                
+                var td = document.getElementById("table").innerHTML;
+                
+                
+                var newTd = "<tr class='carttable'><td class='srno'  >"+ value +"</td><td  ><img class='displayprod'src='images/"+(details[arr].src)+"' width='50%' ></td><td class='prodid'   >"+ (details[arr].name)  +"</td><td><input class='quantity' type='number' min='0' id='quantity "+arr+"' value='1' onChange='calculateTotal()'></td><td id='"+value+"'>  " +(details[arr].price) +"</td> <td   ><button id='det' onclick='det("+ arr+") '>DELETE ITEM</button></td></tr>"
+                    
+                    
+                    td  =  td + newTd
+                    // console.log(td)
+                    document.getElementById("table").innerHTML = td;
+            
+
+
+            })
+
+        }
+
+
+        function calculateTotal()
+        {
+            var array = JSON.parse(localStorage.getItem("favourite"));
+            var fortotal=0;
+            //console.log("details",details)
+            array.map(function(value,index){
+            var price = document.getElementById(index).innerHTML = details[value].price;
+                var number = document.getElementById('quantity '+value).value;
+                
+            console.log(price , number)
+            
+                var total = (number*price)
+            //  document.getElementById("total").innerHTML ="$ "+ total + " dollar";
+
+            // for total prize
+            fortotal= fortotal+total
+            console.log(value)
+            document.getElementById("total").innerHTML=fortotal+"  $ " 
+
+            })
+        }
+
+
+        function det(id)
+            {
+            var array = JSON.parse(localStorage.getItem("favourite"));
+            var index = array.indexOf(id)
+            array.splice(index,1)
+            console.log(array)
+            array = JSON.stringify(array)
+            localStorage.setItem("favourite",array)
+            location.reload(true)
+        }
+
+    </script>
+</body>
+</html>

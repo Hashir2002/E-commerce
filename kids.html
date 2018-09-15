@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+<body>
+    <div class="Main-Complete">
+       
+   
+        <div class="Categories">
+            <table>
+                <tr>
+                    <td colspan="10">
+                           <a href="index.html"> <img class="logo" src="images/logohsy.jpg" alt="mainlogo"> </a>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td><a class="Menu" href="men.html">MEN</a></td>
+                    <td><a class="Menu" href="women1.html">WOMEN</a></td>
+                    <td><a class="Menu" href="foot.html">FOOTWEAR</a></td>
+                    <td><a class="Menu" href="kids.html">KIDS</a></td>
+                    <td><a class="Menu" href="access.html">ACCESSORIES</a></td>
+                    <td><a class="Menu" href="sale.html">SALE</a></td>
+                    <td><a class="Menu" href="limited.html">LIMITED EDITION</a></td>
+                    <td><a class="Menu" href="about.html">ABOUT US</a></td>
+                    <td></td>
+                    <td><a class="Menu" href="cart.html">MY CART</a></td> 
+                </tr>
+
+    
+            </table>
+            </div>
+
+
+
+            <div class="products">
+                    <p id="kidsstuff">KIDS STUFF</p>
+
+                    <ul class="list">
+                        <li><img onclick="gotoprod(31)" id="tshirts" src="images/k1.jpg" alt="shirt5"><b>RED RIDING HOOD</b></li>
+                        <li><img onclick="gotoprod(32)" id="tshirts" src="images/k2.jpg" alt="shirt5"><b>FLORAL INNOCENCE</b></li>
+                        <li><img onclick="gotoprod(34)" id="tshirts" src="images/k4.jpg" alt="shirt5"><b>PRINTED CASUAL</b></li>
+                        <li><img onclick="gotoprod(42)" id="tshirts" src="images/k12.jpg" alt="shirt5"><b>RED TECH PRINT</b></li>
+                        <li><img onclick="gotoprod(35)" id="tshirts" src="images/k5.jpg" alt="shirt5"><b>GOWN DE ROYALE</b></li>
+                        <li><img onclick="gotoprod(36)" id="tshirts" src="images/k6.jpg" alt="shirt5"><b>MINI TUXEDO</b></li>
+                        <li><img onclick="gotoprod(33)" id="tshirts" src="images/k3.jpg" alt="shirt5"><b>ZIP-IT-UP</b></li>
+                        <li><img onclick="gotoprod(41)" id="tshirts" src="images/k11.jpg" alt="shirt5"><b>DEEP BLUE T-SHIRT</b></li>
+                        <li><img onclick="gotoprod(39)" id="tshirts" src="images/k9.jpg" alt="shirt5"><b>RED WINE CHINO</b></li>
+                        <li><img onclick="gotoprod(40)" id="tshirts" src="images/k10.jpg" alt="shirt5"><b>BLACK CHINO</b></li>
+                        <li><img onclick="gotoprod(37)" id="tshirts" src="images/k7.jpg" alt="shirt5"><b>GLITTERED STOCKINGS</b></li>
+                        <li><img onclick="gotoprod(38)" id="tshirts" src="images/k8.jpg" alt="shirt5"><b>SHARP SUMMER SHORTS </b></li>
+                    </ul>
+            </div>
+
+            <div id="footer">
+
+                <!-- broken the main Div of footer into different Divs -->
+        
+                <!-- part 1 -->
+                <div id="footer-sub">
+                    <h2>From the Developer'</h2>
+                    <p>This is an experimental E-commerce site that we have made using HTML5,CSS3 and Javascript(ES6) for which we are very warmly thankful to our co-operative and supportive teachers : <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan </b> and <b class="color">Sir Tahir</b>   as it was never possible without thier guidance. So a big thanks to the teachers for making great efforts.Hope you like it!!!</p>
+                </div>
+        
+                <!-- part 2 -->
+                <div id="footer-sub-2">
+                    <h2>Our Outlets</h2>
+                    <ul>
+                        <li><a href="karachi-location.html">Karachi</a></li>
+                        <li><a href="#">Lahore</a></li>
+                        <li><a href="#">Islamabad</a></li>
+                        <li><a href="#">Hyderabad</a></li>
+                        <li><a href="#">Peshawar</a></li>
+                    </ul>
+                </div>
+                <div id="footer-sub-2">
+                        <h2>Social Links</h2>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Gmail</a></li>
+                            <li><a href="#">Yahoo</a></li>
+                            <li><a href="#">Whatsapp</a></li>
+                        </ul>
+                    </div>
+            </div>
+    
+            
+        </div>
+        <script>
+            function gotoprod(prodId){
+            localStorage.setItem("ProdID",prodId);
+            location.href="details.html";
+            }
+    
+        </script>  
+    </body>
+    </html>

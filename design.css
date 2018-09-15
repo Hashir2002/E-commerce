@@ -1,0 +1,402 @@
+body{
+    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    
+}
+    
+
+.topbar{
+    padding-top: 0px;
+    line-height: 50px;
+}
+
+
+
+a.Menu{  
+    color: aliceblue;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;font-size: 20px;
+    text-decoration: none;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+    padding: 0px 52px ;
+ 
+    
+ }
+
+ a.Menu:hover{
+color:#1E1E1E;
+background-color:whitesmoke; 
+transition: all 0.7s ease-in-out;
+}
+
+
+.Categories>table{
+    background-color: black;
+    display: inline-flex;
+    line-height: 80px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-spacing: 0px;
+ }
+ 
+ .Categories td{
+     
+     
+     color: aliceblue;
+     list-style-type: none;
+     font-family: "Gotham SSm A","Gotham SSm B","Montserrat",sans-serif;
+     font-size: 15px;
+     text-align: center;
+     
+ }
+ 
+ .Categories{
+     display: grid;
+     position: fixed;
+     margin: auto;
+     text-align: center;
+     width: -webkit-fill-available;
+     
+ }
+ .logo{
+    margin: auto;
+    height: 70%;
+    width: 20%;
+    display: block;
+    text-align: center;
+    border: 3px solid aliceblue;
+    margin-top: 8px;
+ }
+
+ #slider{
+     display: inline-flex;
+     margin-top: 200px;
+
+ }
+ .setValue {
+    width: 110pxpx;
+    height: 750px;
+    transition: (transform,)
+    
+}
+
+ .Main-Complete{
+     height: auto;
+     width: auto;
+     border:5px solid rgba(25, 25, 26, 0.85);
+     background-color: #030122;
+     margin: -10px;
+ }
+
+ .mainBody{
+    margin-top: 0px;
+    background-color: #030122;
+ }
+  
+ 
+ .s1{
+    margin-top: 200px;
+    min-width: 500px;
+    min-height: 350px;
+    height: 550px;
+    width: 1050px;
+   }
+
+
+   td{
+       overflow: hidden;
+   }
+  
+  .men1{
+    width: 800px;
+    height: 550px;
+  }
+
+  .men2 {
+    height: 550px;
+    width: 550px;
+}
+
+  .womenlower{
+    width: 400px;
+    height: 550px;
+  }
+ .womentop{
+    height: 135%;
+    width: 100%;
+ }
+
+ .foot{
+    width: 400px;
+    height: 450px;
+ }
+
+ .custom{
+    width: 550px;
+    height: 450px;
+ }
+
+/* Styling for main Div of footer */
+#footer{
+    width: 100%;
+    height:auto;
+    float: left;
+    background-color: black;
+}
+
+/* Styling of part 1 of Main Footer */
+#footer-sub{
+    width: 25%;
+    margin-left: 72px;
+    float: left
+}
+#footer-sub p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#footer-sub h2{
+    color: white;
+    font-size: 38px; 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.color{
+    font-weight: bold;
+    color: #86beea;
+}
+
+/* Styling of part 2 of Main Footer */
+#footer-sub-2{
+    float: left;
+    width: 20%;
+    margin-left:130px;
+    text-align: center;
+}
+#footer-sub-2 h2{
+    color: white;
+    font-size: 38px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+#footer-sub-2 ul li{
+    list-style: none;
+}
+#footer-sub-2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-sub-2 a{
+    font-size: 20px;
+}
+#footer-sub-2 a:hover{
+    background-color: aliceblue;
+    color: #1E1E1E;
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+
+}
+
+.products{
+    margin-top: 220px;
+    min-height: 1000px;
+}
+
+#tshirts {
+    width: 350px;
+    height: 475px;
+}
+li b{
+    display: list-item;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: serif;
+    font-weight: normal; 
+}
+p{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180px;
+}
+
+
+#men1,#women1,#women2,#mycart,#kidsstuff,#accessories,#foot,#sale,#about,#proddetails,#limited,#men2{
+    margin-top: 180px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#men2{
+    margin-top: 0px;
+}
+.onsale{
+    font-size: 40px;
+    color: black;
+    background-color: #c9cdf5;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+
+.list{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+.list li{
+    margin: 20px;
+   
+}
+.SingleProd{
+    margin-top: 0px;
+    color: aliceblue;
+    margin: auto;
+    
+}
+
+ .SingleProd,#info{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+  #info{ 
+    display: table-caption;
+    /* list-style-type: none; */
+    /* margin-top: 200px; */
+    border: 10px groove #c9cdf5;
+    height: 630px;
+    width: 450px;
+    margin-top: 0px;
+    padding: auto;
+    overflow: hidden;
+   
+} 
+ #picture {
+    height: 650px;
+    width: 450px;
+} 
+#picture:hover{
+    transform: scale(1.75,1.5);
+    transition: all 0.9s ease-in;
+}
+#trans{
+    overflow: hidden;
+}
+
+#heading{
+    font-size: 70px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    color: #c9cdf5;
+    text-decoration-line: underline;
+    margin-top: 0px;
+}
+
+#price{
+    font-size: 35px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    font-style: normal;
+    background-color: #c9cdf5;
+    color: #030122;
+    font-weight: initial;
+} 
+
+#cart{
+    height: 60px;
+    width: 200px;
+    font-size: 21px;
+    margin-top: 100px;
+    border-radius: 50px;
+    background-color: #f21f0d;
+    color: wheat;
+}
+#cart:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.3s ease-in-out;
+}
+#maincart{
+    margin: auto;
+}
+
+#cartheadings{
+    display: table-header-group;
+    background-color: whitesmoke;
+    color: #030122;
+    font-weight: bolder;
+    min-width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+   
+#table td{
+    width: 200px;
+    border: 5px solid whitesmoke;
+    padding: auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+#table{
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+.carttable{
+    width: 200px;
+    border: 5px solid whitesmoke;
+    text-align: center;
+    color: whitesmoke;
+    height: 65px;
+    font-size: 25px;
+
+}
+
+.srno{
+    margin: auto;
+    width: 25px;
+}
+  
+.displayprod{
+    width: 275px;
+    height: 400px;
+    margin: 30px 20px;
+}
+.prodid{
+    margin: auto;
+    width: 55px;
+    
+}
+.quantity{
+    height: 25px;
+    width: 150px;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#det{
+    height: 40px;
+    width: 150px;
+    color: whitesmoke;
+    background-color: #3F51B5;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-family: inherit;
+}
+#det:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+<body>
+    <div class="Main-Complete">
+       
+   
+        <div class="Categories">
+            <table>
+                <tr>
+                    <td colspan="10">
+                        <a href="index.html"> <img class="logo" src="images/logohsy.jpg" alt="mainlogo"> </a>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td><a class="Menu" href="men.html">MEN</a></td>
+                    <td><a class="Menu" href="women1.html">WOMEN</a></td>
+                    <td><a class="Menu" href="foot.html">FOOTWEAR</a></td>
+                    <td><a class="Menu" href="kids.html">KIDS</a></td>
+                    <td><a class="Menu" href="access.html">ACCESSORIES</a></td>
+                    <td><a class="Menu" href="sale.html">SALE</a></td>
+                    <td><a class="Menu" href="limited.html">LIMITED EDITION</a></td>
+                    <td><a class="Menu" href="about.html">ABOUT US</a></td>
+                    <td></td>
+                    <td><a class="Menu" href="cart.html">MY CART</a></td> 
+                </tr>
+
+    
+            </table>
+        
+        
+        </div>
+        <div class="products">
+
+                <p id="women1">WOMEN TOPS</p>
+                <ul class="list">
+                    <li><img onclick="gotoprod(10)" id="tshirts" src="images/w1.jpeg" alt="Shirt1"><b>BFF SOCIAL</b></li>
+                    <li><img onclick="gotoprod(11)" id="tshirts" src="images/w2.jpeg" alt="shirt2"><b>YELLOW PRINTED</b></li>
+                    <li><img onclick="gotoprod(12)" id="tshirts" src="images/w3.jpeg" alt="shirt3"><b>ELEGANT WHITE</b></li>
+                    <li><img onclick="gotoprod(13)" id="tshirts" src="images/w4.jpeg" alt="shirt4"><b>LAHORE PRINTED</b></li>
+                    <li><img onclick="gotoprod(14)" id="tshirts" src="images/w5.jpeg" alt="shirt5"><b>WHAT EVER</b></li>
+                    <li><img onclick="gotoprod(15)" id="tshirts" src="images/w6.jpeg" alt="shirt5"><b>RED ROMPER</b></li>  
+                    <li><img onclick="gotoprod(16)" id="tshirts" src="images/w7.jpeg" alt="shirt5"><b>SWEET TOUCH</b></li>  
+                    <li><img onclick="gotoprod(17)" id="tshirts" src="images/w8.jpeg" alt="shirt5"><b>GREY PRINTED</b></li>                  
+                </ul>
+
+                
+        </div>
+        
+        <div id="footer">
+
+            <!-- broken the main Div of footer into different Divs -->
+    
+            <!-- part 1 -->
+            <div id="footer-sub">
+                <h2>From the Developer'</h2>
+                <p>This is an experimental E-commerce site that we have made using HTML5,CSS3 and Javascript(ES6) for which we are very warmly thankful to our co-operative and supportive teachers : <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan </b> and <b class="color">Sir Tahir</b>   as it was never possible without thier guidance. So a big thanks to the teachers for making great efforts.Hope you like it!!!</p>
+            </div>
+    
+            <!-- part 2 -->
+            <div id="footer-sub-2">
+                <h2>Our Outlets</h2>
+                <ul>
+                    <li><a href="karachi-location.html">Karachi</a></li>
+                    <li><a href="#">Lahore</a></li>
+                    <li><a href="#">Islamabad</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Peshawar</a></li>
+                </ul>
+            </div>
+            <div id="footer-sub-2">
+                    <h2>Social Links</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Yahoo</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+        </div>
+
+        
+    </div>
+    <script>
+        function gotoprod(prodId){
+        localStorage.setItem("ProdID",prodId);
+        location.href="details.html";
+        }
+
+    </script>  
+</body>
+</html>
